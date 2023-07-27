@@ -1,0 +1,46 @@
+body{
+    background: url("wal1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+label {
+    color: greenyellow;
+    font-size: larger;
+  }
+.btn.btn-primary {
+    background-color: #007bff; /* Blue color for the background */
+    color: #fff; /* White text color */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 8px 16px; /* Padding around the text */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  /* Hover effect for the primary button */
+  .btn.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+    border-color: #0056b3; /* Darker blue border on hover */
+  }
+  
+  /* Styles for the secondary button */
+  .btn.btn-secondary {
+    background-color: #6c757d; /* Gray color for the background */
+    color: #fff; /* White text color */
+    border: 1px solid #6c757d; /* Gray border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 8px 16px; /* Padding around the text */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  /* Hover effect for the secondary button */
+  .btn.btn-secondary:hover {
+    background-color: #555e66; /* Darker gray color on hover */
+    border-color: #555e66; /* Darker gray border on hover */
+  }
+/* Styles for the primary button */
+.container .row .btn.btn-primary {
+    /* ... Your existing styles ... */
+    margin-right: 10px; /* Add right margin to create space between buttons */
+  }    
